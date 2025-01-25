@@ -1,5 +1,5 @@
 #!/bin/bash
-SESSION="PLACEHOLDER"
+read -p "Enter your SESSION token: " SESSION
 
 # Loop through years 2015 to 2024
 for YEAR in {2015..2024}; do
